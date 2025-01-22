@@ -7,9 +7,10 @@ body {
     height: 72px;
     background: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 5px 250px;
+    gap: 350px;
+    /* padding: 5px 250px; */
     margin: 0;
     flex: 1;
 }
@@ -41,17 +42,18 @@ a {
 .secOne {
     background: #1F2937;
     margin: 0;
-    padding: 100px 250px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 100px;
     flex: 1;
 }
 
 .secOne img {
     flex: 1;
-    height: 200px;
+    height: 250px;
 }
 
 .htext {
