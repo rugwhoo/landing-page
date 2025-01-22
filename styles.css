@@ -43,6 +43,8 @@ a {
     padding: 100px 250px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 
 .htext {
@@ -96,6 +98,7 @@ p.maintext {
     gap: 32px;
     padding: 32px;
     padding-top: 50px;
+    flex-wrap: wrap;
 }
 
 .items img {
